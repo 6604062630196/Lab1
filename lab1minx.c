@@ -1,7 +1,6 @@
 #include<stdio.h>
 int main() {
-	int var1 = 20;
-	int var2 = 12;
+	int var1 int var2;
 	scanf("%d",&var1);
 	scanf("%d",&var2);
 	if(var1 > var2) {
