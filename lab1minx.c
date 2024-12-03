@@ -1,12 +1,14 @@
 #include<stdio.h>
-int main(void){
-	int n1,n2;
-	n1 = 20;
-	n2 = 30;
-	if (n1>n2) {
-		printf("n1 is greater than n2");
-	}else{
-		printf("n2 is greather than n1");
+int main() {
+	int var1;
+	int var2;
+	scanf("%d",&var1);
+	scanf("%d",&var2);
+	if(var1 > var2) {
+		printf("var1 is greather than var2");
+		printf("\n%d",(var1-var2));
+	} else {
+		printf("var2 is greather than var1");
+		printf("\n%d",(var2-var1));
 	}
-	
 }
